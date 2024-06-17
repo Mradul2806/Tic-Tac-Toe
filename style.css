@@ -4,89 +4,88 @@
 }
 
 body{
-    background-color: turquoise;
+    background-color: #00246B;
     text-align: center;
 }
 
 html { overflow-y: hidden; }
 
 h1{
-    font-size: 5rem;
-    margin: 1rem;
-    color: #ab2346;
+    font-size: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #c5e9fb;
 }
 
 .details{
     position: absolute;
     font-size: 2.5rem;
     font-weight: bold;
-    top: 5rem;
-    color: #4e4e4e;
+    top: 8rem;
+    color: #FBEAEB;
     left: 1.5rem;
 }
 
 .details p span{
-    color: red;
+    color: #f55766;
 }
 
 .details div span{
-    color: blue;
+    color: #f55766;
 }
 
 .container{
-    height: 70vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid black; */
     /* position: relative; */
 }
 
 .game{
-    height: 60vmin;
-    width: 60vmin;
+    height: 55vmin;
+    width: 55vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
-    background-color: rgb(75, 73, 73);
+    /* background-color: rgb(75, 73, 73); */
+    /* border: 2px solid black; */
 }
 
 .box{
-    height: 19vmin;
-    width: 19vmin;
-    border: none;
+    height: 17vmin;
+    width: 17vmin;
     cursor: pointer;
-    font-size: 12vmin;
+    font-size: 6rem;
     color: rgb(217, 7, 7);
-    background-color: turquoise;
-    /* border: 2px solid turquoise; */
-
-    /* border: 2px solid transparent; */
-    /* background-color: white; */
-    /* border-radius: 1rem; */
-    /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); */
+    background-color: #89ABE3;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
 .reset{
-    padding: 1.5rem;
-    font-size: 1.25rem;
+    margin-top: 10px;
+    padding: 1.75rem;
+    font-size: 1.75rem;
     background-color: #191913;
-    color: #fff;
+    color: #E7E8D1;
     border-radius: 1rem;
     border: none;
     cursor: pointer;
 }
 
 .new{
-    padding: 1.5rem;
-    font-size: 1.25rem;
+    margin-top: 15px;
+    padding: 1.75rem;
+    font-size: 1.75rem;
     background-color: #191913;
-    color: #fff;
+    color: #E7E8D1;
     border-radius: 1rem;
     border: none;
-    margin-left: 2rem;
     cursor: pointer;
+    margin-left: 2rem;
 }
 
 #msg{
@@ -114,6 +113,54 @@ h1{
 
 
 /* Media Quary */
+
+@media (max-width:1024px) {
+    html{
+        font-size: 90%;
+    }
+    h1{
+        font-size: 5.5rem;
+        margin-top: 3rem;
+    }
+    .details{
+        font-size: 2.5rem;
+        top: 10rem;
+        left: 2rem;
+    }
+    .container{
+        height: 45vh;
+        margin-top: 5rem;
+        margin-bottom: 0;
+    }
+    .game{
+        height: 53vmin;
+        width: 52.5vmin;
+        gap: 2.25vmin;
+        /* border: 5px solid rgb(0, 0, 0); */
+    }
+    .box{
+        height: 16vmin;
+        width: 16vmin;
+        font-size: 5rem;
+    }
+    .reset{
+        padding: 2rem;
+        font-size: 2rem;
+    }
+    .new{
+        padding: 2rem;
+        font-size: 2rem
+    }
+    #msg{
+        color: #ffffc7;
+        font-size: 15vmin;
+        line-height: 1.75;
+    }
+    
+    .msg-container{
+        height: 100vh;
+    }
+}
 
 @media (max-width:770px) {
     html{
