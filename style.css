@@ -85,7 +85,7 @@ h1{
     border-radius: 1rem;
     border: none;
     cursor: pointer;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 
 #msg{
@@ -496,16 +496,16 @@ h1{
     }
     h1{
         font-size: 5.6rem;
-        margin-top: 5rem;
+        margin-top: 2.4rem;
     }
     .details{
-        font-size: 2.7rem;
-        top: 18rem;
-        left: 2rem;
+        font-size: 2.5rem;
+        top: 10.5rem;
+        left: 3rem;
     }
     .container{
-        height: 60vh;
-        margin-top: 10rem;
+        height: 35vh;
+        margin-top: 13rem;
     }
     .game{
         height: 72vmin;
@@ -516,6 +516,101 @@ h1{
         height: 22vmin;
         width: 22vmin;
         /* background-color: turquoise; */
-        font-size: 12vmin;
+        font-size: 15vmin;
+    }
+    .reset{
+        margin-top: 4.5rem;
+        padding: 2rem;
+        font-size: 2.2rem;
+    }
+    .new{
+        padding: 2rem;
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width:345px) {
+    html{
+        font-size: 70%;
+    }
+    h1{
+        font-size: 5.6rem;
+        margin-top: 6rem;
+    }
+    .details{
+        font-size: 3rem;
+        top: 18rem;
+        left: 3rem;
+    }
+    .container{
+        height: 30vh;
+        margin-top: 18rem;
+    }
+    .game{
+        height: 75vmin;
+        width: 75vmin;
+        gap: 3vmin;
+    }
+    .box{
+        height: 23vmin;
+        width: 23vmin;
+        /* background-color: turquoise; */
+        font-size: 15vmin;
+    }
+    .reset{
+        margin-top: 5rem;
+        padding: 2.5rem;
+        font-size: 2.8rem;
+    }
+    .new{
+        padding: 2.5rem;
+        font-size: 2.8rem;
+    }
+    /* #msg{
+        color: #ffffc7;
+        font-size: 15vmin;
+        line-height: 1.75;
+    }
+    .msg-container{
+        height: 100vh;
+    } */
+}
+
+@media (max-width:330px) {
+    html{
+        font-size: 60%;
+    }
+    h1{
+        font-size: 5.6rem;
+        margin-top: 2.4rem;
+    }
+    .details{
+        font-size: 2.5rem;
+        top: 10.5rem;
+        left: 3rem;
+    }
+    .container{
+        height: 35vh;
+        margin-top: 13rem;
+    }
+    .game{
+        height: 72vmin;
+        width: 72vmin;
+        gap: 3vmin;
+    }
+    .box{
+        height: 22vmin;
+        width: 22vmin;
+        /* background-color: turquoise; */
+        font-size: 15vmin;
+    }
+    .reset{
+        margin-top: 4.5rem;
+        padding: 2rem;
+        font-size: 2.2rem;
+    }
+    .new{
+        padding: 2rem;
+        font-size: 2.2rem;
     }
 }

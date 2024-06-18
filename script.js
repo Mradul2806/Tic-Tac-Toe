@@ -50,7 +50,7 @@ const gameDraw = () => {
   };
 
 const showWinner = (winner) => {
-    msg.innerText = `Congratulation Winner is ${winner}`;
+    msg.innerText = `Winner is ${winner}`;
     details.classList.add("hide");
     msgContainer.classList.remove("hide");
     disableBoxes();
